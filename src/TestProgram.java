@@ -17,6 +17,6 @@ public class TestProgram
         }
         System.out.println("Sum:"+sum);
         average = (float)sum / n;
-        System.out.println("Average:"+average);
+        System.out.println("Average of the elements:"+average);
     }
 }
