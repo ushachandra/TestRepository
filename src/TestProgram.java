@@ -1,9 +1,12 @@
+import java.util.List;
 import java.util.Scanner;
 public class TestProgram
 {
     public static void main(String[] args) 
     {
         int n, sum = 0;
+        List<String> arrTemp;
+        
         float average;
         Scanner s = new Scanner(System.in);
         System.out.print("Enter no. of elements you want in array:");
@@ -16,9 +19,16 @@ public class TestProgram
             sum = sum + a[i];
         }
         System.out.println("Sum of numbers:"+sum);
+        //arrTemp.clear();
         average = (float)sum / n;
         System.out.println("Average of :"+ n + "of elements " +average);
+        TestProgram tp = new TestProgram();
+        tp.test();
         
         
+    }
+    
+    public void test(){
+    	System.out.println("Iam inside test");
     }
 }
