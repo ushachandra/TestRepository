@@ -31,5 +31,6 @@ public class TestProgram
     public void test(){
     	System.out.println("Iam inside test method");
         System.out.println("This is for testing purpose");
+    	
     }
 }
