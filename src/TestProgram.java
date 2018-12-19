@@ -32,6 +32,7 @@ public class TestProgram
     	System.out.println("Iam inside test method");
         System.out.println("This is for testing purpose");
         System.out.println("Added new line ");
+        System.out.println("Added new line 2");
     	
     }
 }
